@@ -12,7 +12,7 @@ RUN mkdir /tool && \
 	make install
 
 
-ENV PYTHONPATH=$PYTHONPATH:/tool/z3/install/lib/python-2/site-packages
-ENV PATH=$PATH:/tool/z3/install/bin
+ENV PYTHONPATH "$PYTHONPATH:/tool/z3/install/lib/python-2/site-packages"
+ENV PATH "$PATH:/tool/z3/install/bin"
 
 
